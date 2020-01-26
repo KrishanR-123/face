@@ -18,5 +18,6 @@ cv2.imshow('img',img)
 k=cv2.waitKey(0)
 if k==27:
     cv2.destroyAllWindows()
-elif k == ord('s')
-cv2.destroyAllWindows()
+else:
+    if k == ord('s'):
+        cv2.destroyAllWindows()
